@@ -1,8 +1,25 @@
 aid: segway-ninebot
 name: Segway-Ninebot
-description: 'Segway-Ninebot is a company surfaced as a portfolio company of hongshan and added to the
-  API Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Segway-Ninebot is a global personal-transportation and robotics company,
+  formed when Ninebot acquired Segway in 2015. It designs and manufactures electric
+  kickscooters (the world''s top-selling e-kickscooter brand, 13M+ units sold across
+  100+ countries), self-balancing personal transporters, e-bikes, and — through its
+  Robotics division — RMP mobile-robot chassis and delivery/service robots (Nova Carter,
+  NVIDIA Isaac-powered developer kits). Backed by HongShan. Its public developer surface
+  is limited to Segway Robotics'' open-source ROS / NVIDIA Isaac integration packages
+  on GitHub; no first-party REST or OpenAPI product API is currently published.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://robotics.segway.com/wp-content/uploads/2021/04/cropped-segway-robotics-favicon-192x192.jpeg
 url: https://raw.githubusercontent.com/api-evangelist/segway-ninebot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Technology
+- Mobility
+- Robotics
+- Electric Scooters
+- Transportation
+- Hardware
+- Consumer Electronics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://segway.com
+- type: DeveloperPortal
+  url: https://robotics.segway.com/for-developers/
+- type: GitHubOrganization
+  url: https://github.com/segwayrobotics
+- type: Blog
+  url: https://robotics.segway.com/news/
+- type: Support
+  url: https://robotics.segway.com/request-more-information/
+- type: PrivacyPolicy
+  url: https://robotics.segway.com/privacy-policy/
+- type: DomainSecurity
+  url: security/segway-ninebot-domain-security.yml
+- type: LLMsTxt
+  url: llms/segway-ninebot-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
