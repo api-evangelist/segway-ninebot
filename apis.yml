@@ -8,6 +8,17 @@ description: 'Segway-Ninebot is a global personal-transportation and robotics co
   NVIDIA Isaac-powered developer kits). Backed by HongShan. Its public developer surface
   is limited to Segway Robotics'' open-source ROS / NVIDIA Isaac integration packages
   on GitHub; no first-party REST or OpenAPI product API is currently published.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
